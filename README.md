@@ -17,6 +17,8 @@
 
 <img src="/toOther.jpg" width="300">  
 
+#### перевод из десятичной системы счисления в двоичную на TypeScript
+
 ```ts
 function toOtherSystem (num: number, sys: number): string {
 
