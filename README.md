@@ -59,5 +59,23 @@ console.log(
                                         n^0=1
 ```
 
+#### перевод из двоичной (или любой другой) системы счисления в десятичную на TypeScript:  
+
+```ts
+function toDecimal(num: string, sys: number): number {
+
+    let res: number = 0
+
+    for (let i = 0; i < num.length; i++) {
+        res += Number(num[i]) * Math.pow(sys, num.length - i - 1)
+    }
+
+    return res
+}
+
+console.log(
+    toDecimal('101', 2) // вывидет 5
+)
+```
 
 
