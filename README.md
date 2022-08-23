@@ -39,4 +39,9 @@ function toOtherSystem (num: number, sys: number): string {
 console.log(
     toOtherSystem(5, 2) // вывидет 101
 )
-```
+```  
+
+### Перевод из ЛЮБОЙ системы в лубую ДЕСЯТИЧНУЮ
+
+
+<img src="/toOther.jpg" width="300">  
