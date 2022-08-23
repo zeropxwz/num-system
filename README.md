@@ -52,6 +52,6 @@ console.log(
                                        n^0=1                         n^0=1            
 ```  
 
-<img src="/toDecimal.png" width="25">  
+<img src="/toDecimal.png" height="25">  
 
 
