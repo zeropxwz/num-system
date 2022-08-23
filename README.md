@@ -44,4 +44,4 @@ console.log(
 ### Перевод из ЛЮБОЙ системы в лубую ДЕСЯТИЧНУЮ
 
 
-<img src="/toDecimal.png" height="50">  
+<img src="/toDecimal.png" height="30">  
