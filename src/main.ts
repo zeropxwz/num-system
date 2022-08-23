@@ -1,22 +1,20 @@
-// function toOther (num: number, sys: number): string {
+function toOther (num: number, sys: number): string {
 
-//     let res: string = ''
+    let res: string = ''
 
-//     while (num >= sys) {
-//         res += String(Math.floor(num % sys))
-//         num  = Number(Math.floor(num / sys))
-//     }
+    while (num >= sys) {
+        res += String(Math.floor(num % sys))
+        num  = Number(Math.floor(num / sys))
+    }
 
-//     res += String(num)
+    res += String(num)
 
-//     return res.split('').reverse().join().replace(/,/g, '') 
-// }
+    return res.split('').reverse().join().replace(/,/g, '') 
+}
 
-// console.log(
-//     toOther(5, 2) // вывидет 101
-// )
-
-
+console.log(
+    toOther(5, 2) // вывидет 101
+)
 
 function toDecimal(num: string, sys: number): number {
 
